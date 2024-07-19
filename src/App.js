@@ -11,7 +11,7 @@ import WatchedMoviesList from "./WatchedMovieList";
 import MovieDetails from "./MovieDetails";
 import MovieList from "./MovieList";
 
-const KEY = "1577ce8a";
+const KEY = process.env.REACT_APP_API_KEY;
 
 export default function App() {
   const [query, setQuery] = useState("");
