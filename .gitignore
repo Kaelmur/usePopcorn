@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 /src/App-v1.js
+/src/App-v2.js
 /.env
 
 # testing
